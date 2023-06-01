@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+}
+.navbar-responsive {
+  display: none;
+}
+
+.start-home {
+  flex-direction: row;
+  justify-content: space-between; 
+
+  padding: 0;
+}
+
+.start-home__description {
+  margin: 0;
+
+  /* width: 40%; */
+}
+.start-home__description h1 {
+  font-size: 5rem;
+}
+.start-home__description p {
+  font-size: 1.6rem;
+}
+.shop-now-btn {
+  font-size: 1.8rem;
+}
+
+.start-home__picture {
+  width: 50%;
+}
+.start-home__picture img {
+  width: 80%;
+}
+
+
+
