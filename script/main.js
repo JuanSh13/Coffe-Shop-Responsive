@@ -15,12 +15,18 @@ document.querySelector('#search-icon').onclick = () => {
   search.classList.toggle('active');
 };
 
-if(mediaqueryList.matches) {
-  navbar.classList.remove('inactiveNav');
-  navbar.classList.remove('activeNav');
-}
+// if(mediaqueryList.matches) {
+//   navbar.classList.remove('inactiveNav');
+//   navbar.classList.remove('activeNav');
+// }
 
-document.querySelector('#search-icon').onclick = () => {
-  search.classList.toggle('active');
-}
+mediaqueryList.addListener(function(EventoMediaQueryList) {
+  if(EventoMediaQueryList.matches) {
+    navbar.classList.remove('inactiveNav');
+    navbar.classList.remove('activeNav');
+  }
+  else {
+    navbar.classList.add('inactiveNav');
+  }
+});
 

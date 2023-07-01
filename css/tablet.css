@@ -37,14 +37,14 @@
   padding: 0px 17px;
 
   color: var(--bg-color);
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 500;
 
   text-transform: uppercase;
 }
 .navbar li a:hover {
 
-  color: #1b1b1b;
+  color: var(--main-color);
 
   /* border-radius: 0.2rem;
 
