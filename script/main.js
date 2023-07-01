@@ -6,7 +6,6 @@ let mediaqueryList = window.matchMedia("(min-width: 769px)");
 document.querySelector('.navbar-responsive').onclick = () => {
   navbar.classList.remove('inactiveNav');
   navbar.classList.add('activeNav');
-
 };
 document.querySelector('.navbar-closed').onclick = () => {
   navbar.classList.add('inactiveNav');
@@ -19,5 +18,9 @@ document.querySelector('#search-icon').onclick = () => {
 if(mediaqueryList.matches) {
   navbar.classList.remove('inactiveNav');
   navbar.classList.remove('activeNav');
+}
+
+document.querySelector('#search-icon').onclick = () => {
+  search.classList.toggle('active');
 }
 
