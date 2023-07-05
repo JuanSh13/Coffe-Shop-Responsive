@@ -1,9 +1,10 @@
 .start-home__description {
-  width: 30%;
-}
-.start-home__picture {
   width: 50%;
 }
+.start-home__picture {
+  /* width: 50%; */
+  max-width: 850px;
+}
 .start-home__picture img {
-  width: 100%;
+  width: 80%;
 }

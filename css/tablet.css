@@ -1,26 +1,21 @@
+/* Navigation Bar (Navbar) */
 .navbar {
   position: static;
-  z-index: 100000;
-
-  /* display: flex; */
-  /* flex-direction: column; */
   
   width: auto;
   height: auto;
 
   background: none;
-
-  /* overflow: hidden; */
 }
-.navbar-closed {
-  display: none;
+/* Navigation Bar (Navbar) Controllers */
+.navbar--inactive {
+  transform: translateY(0);
+  transition: 0s;
 }
-.navbar-closed i {
-  padding: 1rem;
-
-  font-size: 4rem;
-  color: var(--bg-color);
-}
+/* .activeNav {
+  transform: translateY(88px);
+  transition: 1s;
+} */
 .navbar__list {
   display: flex;
   flex-direction: row;
@@ -42,16 +37,6 @@
 
   text-transform: uppercase;
 }
-.navbar li a:hover {
-
-  color: var(--main-color);
-
-  /* border-radius: 0.2rem;
-
-  background-color: var(--main-color);
-
-  transition: 0.2s all linear; */
-}
 
 .navbar-responsive {
   display: none;
@@ -61,18 +46,16 @@
   
   cursor: pointer;
 }
-
+/* Section - Star Home  */
 .start-home {
   flex-direction: row;
-  justify-content: space-between; 
 
+  /* width: 80%; */
   padding: 0;
 }
-
+/* Start Home - Description */
 .start-home__description {
-  margin: 0;
-
-  /* width: 40%; */
+  width: 50%;
 }
 .start-home__description h1 {
   font-size: 5rem;
@@ -83,9 +66,10 @@
 .shop-now-btn {
   font-size: 1.8rem;
 }
-
+/* Start Home - Picture */
 .start-home__picture {
-  width: 100%;
+  min-width: 300px;
+  max-width: 500px;
 }
 .start-home__picture img {
   width: 100%;
