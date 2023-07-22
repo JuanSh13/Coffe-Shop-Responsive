@@ -110,3 +110,17 @@
 .start-home__picture img {
   width: 80%;
 }
+
+
+.qualities {
+  grid-template-columns: repeat(4, auto);
+}
+.qualities-card {
+  
+}
+
+.popular-product-containers {
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  gap: 4rem;
+}

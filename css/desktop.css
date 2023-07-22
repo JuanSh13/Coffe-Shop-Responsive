@@ -8,3 +8,9 @@
 .start-home__picture img {
   width: 80%;
 }
+
+
+.popular-product-containers {
+  grid-template-columns: repeat(4, auto);
+  flex-wrap: wrap;
+}
