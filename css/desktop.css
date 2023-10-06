@@ -10,6 +10,12 @@
 }
 
 
+/* Our History */
+.our-history {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .popular-product-containers {
   grid-template-columns: repeat(4, auto);
   flex-wrap: wrap;

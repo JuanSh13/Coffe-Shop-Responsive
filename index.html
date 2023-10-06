@@ -24,6 +24,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+  <!-- CDN Swipper  -->
+
   <!-- Page Title  -->
   <title>Coffee Shop Website</title>
 </head>
@@ -128,11 +130,15 @@
       </div>
       <!-- Our History -->
       <div class="our-history">
-        <h3 class="section-title">OUR HISTORY</h3>
-        <p class="section-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum nostrum ullam debitis ipsa libero, vero ab non, quae amet pariatur et accusantium similique </br></br> aliquid veritatis expedita sapiente dolorum quo?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, architecto! </br></br>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate modi fugit, eos vel earum esse?</p>
-        <button href="#" class="button shop-now-btn">Learn More</button>
+        <div class="our-history__detail">
+          <div class="our-history__title">
+            <h3 class="section-title">OUR HISTORY</h3>
+          </div>
+          <p class="section-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum nostrum ullam debitis ipsa libero, vero ab non, quae amet pariatur et accusantium similique </br></br> aliquid veritatis expedita sapiente dolorum quo?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, architecto! </br></br>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate modi fugit, eos vel earum esse?</p>
+          <button href="#" class="button shop-now-btn">Learn More</button>
+        </div>
         <picture class="our-history__picture">
           <img src="assets/about.jpg" alt="#">
         </picture>
@@ -150,7 +156,7 @@
         <!-- Product Card -->
         <div class="product-card">
           <!-- Product Card Picture -->
-          <picture class="product-card__picture">
+          <picture>
             <img src="assets/p1.png" alt="">
             <div class="product-card__settings">
               <i class='bx bx-heart'></i>
@@ -389,7 +395,7 @@
       </div>
       <!-- Reviews -->
       <div class="reviews">
-        <!-- Reviews -->
+        <!-- Review -->
         <div class="review">
           <div class="review__commentary">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit corrupti possimus atque asperiores eligendi. Cupiditate ratione suscipit non consectetur eum?</p>
@@ -411,11 +417,167 @@
             </div>
           </div>
         </div>
+        <!-- Review -->
+        <div class="review">
+          <div class="review__commentary">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit corrupti possimus atque asperiores eligendi. Cupiditate ratione suscipit non consectetur eum?</p>
+            <div class="score">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+          </div>
+          <div class="review__user-info">
+            <picture>
+              <img src="assets/rev2.jpg" alt="">
+            </picture>
+            <div class="user-info__name">
+              <h5>Yesin Arafat</h5>
+              <p>@Yesin_Arafat</p>
+            </div>
+          </div>
+        </div>
+        <!-- Review -->
+        <div class="review">
+          <div class="review__commentary">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit corrupti possimus atque asperiores eligendi. Cupiditate ratione suscipit non consectetur eum?</p>
+            <div class="score">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+          </div>
+          <div class="review__user-info">
+            <picture>
+              <img src="assets/rev3.jpg" alt="">
+            </picture>
+            <div class="user-info__name">
+              <h5>Elissa Mark</h5>
+              <p>@Elissa_Mark</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="see-all-products">
+        <button href="" class="button">See All Products</button>
       </div>
     </section>
-
   </main>
 
+  <div class="bg-footer">
+    <!-- Footer -->
+    <footer>
+      <!-- Subscribe -->
+      <section class="subscribe">
+        <div class="subscribe__title">
+          <h3 class="section-title">COFFEE BUILD YOUR FRESH MIND</h3>
+        </div>
+        <div class="input-email">
+          <input type="email" placeholder="Enter Your Email">
+          <button href="#" class="button">Subscribe</button>
+        </div>
+      </section>
+      <!-- Company Information -->
+      <section class="company-information">
+        <!-- Brand Description -->
+        <div class="brand-description">
+          <picture>
+            <img src="assets/logo.png" alt="">
+          </picture>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum tempore architecto dolores reiciendis maxime placeat dolorem.</p>
+          <!-- Brand Social Networks -->
+          <div class="brand-description__social-networks">
+            <div>
+              <a href="#">
+                <i class='bx bxl-facebook'></i>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <i class='bx bxl-twitter' ></i>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <i class='bx bxl-google-plus' ></i>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <i class='bx bxl-youtube' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Company Contact -->
+        <div class="company-contact">
+          <h5 class="company-information__title">Contact</h5>
+          <ul>
+            <li>250 Northern Bird</li>
+            <li>Suite 324-1033</li>
+            <li>Albany, Ny 12204-1200</li>
+            <li>
+              <i class='bx bxs-phone-call'></i>
+              +123 456 789 00
+            </li>
+            <li>
+              <i class='bx bxs-map'></i>
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Viewer Guides -->
+        <div class="viewer-guides">
+          <h5 class="company-information__title">Viewer guides</h5>
+          <ul>
+            <li>
+              <a href="#">Feature</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">Blog Post</a>
+            </li>
+            <li>
+              <a href="#">Help & Support</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Recent News  -->
+        <div class="recent-news">
+          <h5 class="company-information__title">recent-news</h5>
+          <!-- News Cards -->
+          <div class="news-cards">
+            <!-- News Card -->
+            <div class="news-card">
+              <picture>
+                <img src="assets/recent-news1.jpg" alt="">
+              </picture>
+              <div class="news-card__info">
+                <h6>Best Smell of Americano Coffee Trins</h6>
+                <p>DECENBER 30 - 2021</p>
+              </div>
+            </div>
+            <!-- News Card -->
+            <div class="news-card">
+              <picture>
+                <img src="assets/recent-news1.jpg" alt="">
+              </picture>
+              <div class="news-card__info">
+                <h6>Best Smell of Americano Coffee Trins</h6>
+                <p>DECENBER 30 - 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </div>
 
   <script src="script/main.js"></script>
 </body>

@@ -203,6 +203,7 @@ nav {
 }
 
 /* Main */
+/* Section Home  */
 /* Background Home */
 .bg-home {
   background-image: url(../assets/bg.png);
@@ -295,6 +296,12 @@ nav {
   font-size: var(--font-size-xxs);
 }
 
+/* Our History */
+/* Our History Title */
+.our-history__title {
+  margin: 3rem 0;
+}
+
 /* Our Popular Products */
 .popular-products {
   padding: 0;
@@ -319,16 +326,16 @@ nav {
   /* background: var(--bg-color); */
 }
 /* Product Card Picture */
-.product-card__picture {
+.product-card picture {
   position: relative;
 
   display: flex;
   
   /* padding: 1rem; */
 }
-.product-card__picture img {
+.product-card picture img {
   /* width: 100%; */
-  height: 300px;
+  height: 250px;
 
   object-fit: cover;
   object-position: center;
@@ -485,6 +492,15 @@ nav {
   margin: 0 auto;
 }
 /* Review */
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  justify-content: center;
+  gap: 4rem;
+}
+.review {
+  max-width: 30rem;
+}
 .review__commentary {
   padding: 2rem;
   /* border: .1rem solid var(--text-color); */
@@ -494,13 +510,14 @@ nav {
   font-size: var(--font-size-xxs);
 }
 .score {
-  color: #e1e10e;
+  color: #fec210;
   font-size: var(--font-size-xs);
 }
 .review__user-info {
   display: flex;
 
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .review__user-info picture {
   width: 5rem;
@@ -517,13 +534,178 @@ nav {
 .user-info__name {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 
   margin-left: 1rem;
 
   font-size: var(--font-size-xxs);
 }
+.user-info__name p {
+  color: var(--main-color);
+}
 
+/* Footer */
+.bg-footer {
+  width: 100%;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(../assets/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+footer {
+  padding: 0;
+  width: 90%;
+  margin: 0 auto;
+
+  text-align: center;
+  font-size: var(--font-size-xxs);
+}
+
+/* Subscribe */
+.subscribe__title {
+  padding: 3rem 0;
+}
+.subscribe__title h3 {
+  color: var(--second-color);
+}
+.input-email {
+  display: flex;
+  justify-content: space-between;
+
+  background: var(--text-color);
+}
+.input-email input {
+  width: 60%;
+  padding-left: 1rem;
+  border: none;
+
+  color: var(--second-color);
+
+  background: none;
+}
+.input-email input:focus {
+  outline: none;
+}
+.input-email button {
+  margin-right: 1rem;
+}
+
+/* Company Information */
+.company-information {
+  /* display: flex; */
+}
+/* Company Information Title */
+.company-information__title {
+  margin-bottom: 1.6rem;
+
+  color: var(--second-color);
+  font-size: var(--font-size-xs);
+}
+
+/* Brand Description */
+.brand-description picture {
+  display: flex;
+  justify-content: center;
+
+  margin: 2rem 0;
+}
+.brand-description picture img {
+  width: 12rem;
+}
+.brand-description p {
+  margin-bottom: 2rem;
+
+  color: var(--second-color);
+  /* font-size: var(--font-size-xxs); */
+}
+/* Brand Social Networks */
+.brand-description__social-networks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  margin-bottom: 2rem;
+}
+.brand-description__social-networks div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 4rem;
+  height: 4rem;
+  
+  background: var(--main-color);
+}
+.brand-description__social-networks div a {
+  display: flex;
+
+  color: var(--second-color);
+  font-size: var(--font-size-l);
+}
+
+/* Company Contact */
+.company-contact ul {
+  margin-bottom: 4rem;
+}
+.company-contact ul li {
+  margin-bottom: .5rem;
+
+  color: var(--second-color);
+}
+.company-contact ul li a {
+  color: var(--second-color);
+}
+
+/* Viewer Guides */
+.viewer-guides ul {
+  margin-bottom: 4rem;
+}
+.viewer-guides ul li {
+  margin-bottom: .5rem;
+}
+.viewer-guides ul li a {
+  color: var(--second-color);
+}
+
+/* News Cards */
+.news-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* News Card  */
+.news-card {
+  display: flex;
+  align-items: center;
+  /* width: 5px; */
+}
+.news-card picture {
+  width: 6rem;
+  height: 6rem;
+}
+.news-card picture img {
+  width: 100%;
+  height: 100%;
+}
+.news-card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-left: 1rem;
+
+  text-align: start;
+}
+.news-card__info h6 {
+  color: var(--second-color);
+  font-size: var(--font-size-xs);
+}
+.news-card__info p {
+  color: var(--main-color);
+}
+
+
+/* Media Queries */
 @media screen and (max-height: 600px) {
   .start-home {
     height: auto;
