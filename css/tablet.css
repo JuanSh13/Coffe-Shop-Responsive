@@ -82,13 +82,13 @@
   display: none;
 }
 
+/* Start Home */
 .start-home {
   flex-direction: row;
   justify-content: space-between; 
 
   padding: 0;
 }
-
 .start-home__description {
   margin: 0;
 
@@ -103,7 +103,6 @@
 .shop-now-btn {
   font-size: 1.8rem;
 }
-
 .start-home__picture {
   width: 50%;
 }
@@ -111,16 +110,40 @@
   width: 80%;
 }
 
+/* Our History */
+.our-history {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 1rem;
 
+  text-align: start;
+}
+.our-history__picture img {
+  min-width: 300px;
+
+  height: 100%;
+}
+
+
+/* Qualities */
 .qualities {
-  grid-template-columns: repeat(4, auto);
-}
-.qualities-card {
-  
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.popular-product-containers {
+/* Popular Product Cards */
+.popular-product-cards {
   grid-template-columns: repeat(3, auto);
   justify-content: space-between;
   gap: 4rem;
+}
+.product-card picture img {
+  /* width: 100%; */
+  height: 200px;
+}
+
+/* Reviews *
+/* Review */
+.review {
+  max-width: 32rem;
 }

@@ -22,14 +22,6 @@
   height: 200px;
 }
 
-/* Reviews */
-.reviews {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  justify-content: center;
-  gap: 4rem;
-}
-
 /* Company Information */
 .company-information {
   display: grid;
@@ -45,8 +37,15 @@
   grid-column-end: 3;
 }
 
+/* Brand Description */
 .brand-description {
   margin-bottom: 2rem;
+}
+
+/* Reviews *
+/* Review */
+.review {
+  max-width: 80%;
 }
 
 /* Media Queries */
