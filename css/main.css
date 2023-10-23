@@ -280,11 +280,11 @@ nav {
   font-size: var(--font-size-m);
 }
 .qualities-card__title i {
-  /* padding: 1rem; */
+  padding: 1rem;
   
   color: var(--text-color);
   
-  /* background: var(--second-color); */
+  background: var(--second-color);
 }
 .qualities-card__title h4 {
   margin: 0 0 0 1rem;
@@ -396,11 +396,11 @@ nav {
   color: var(--bg-color);
 }
 
-/* See All Products - Button */
-.see-all-products {
+/* See All Products, View More Reviews - Button */
+.see-all-products, .view-more-reviews {
   text-align: center;
 }
-.see-all-products button {
+.see-all-products button, .view-more-reviews button {
   margin: 3rem 0;
 }
 

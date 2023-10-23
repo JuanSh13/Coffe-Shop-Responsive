@@ -10,9 +10,6 @@
   width: 80%;
 }
 
-
-
-.popular-product-containers {
-  grid-template-columns: repeat(4, auto);
-  flex-wrap: wrap;
+.popular-product-cards {
+  grid-template-columns: repeat(4, 1fr);
 }

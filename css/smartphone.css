@@ -17,9 +17,17 @@
 .popular-product-cards {
   grid-template-columns: repeat(2, auto);
 }
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .product-card picture img {
   /* width: 100%; */
-  height: 200px;
+  height: 160px;
+
+  object-fit: scale-down;
+  object-position: center;
 }
 
 /* Company Information */
@@ -53,4 +61,4 @@
   .product-card picture img {
     height: 300px;
   }
-}
+}                                     
