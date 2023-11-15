@@ -67,6 +67,8 @@ img {
   font-weight: 500;
   
   background: var(--main-color);
+
+  cursor: pointer;
 }
 .button:hover {
   border: 1px solid #8a6f4d;
@@ -301,9 +303,6 @@ nav {
 .our-history__title {
   margin: 3rem 0;
 }
-
-
-
 
 /* Our Popular Products */
 .popular-products {
@@ -583,10 +582,13 @@ footer {
   display: flex;
   justify-content: space-between;
 
+  max-width: 40rem;
+  margin: auto;
+
   background: var(--text-color);
 }
 .input-email input {
-  width: 60%;
+  width: 100%;
   padding-left: 1rem;
   border: none;
 

@@ -17,6 +17,9 @@ const swiperParams = {
     1025: {
       slidesPerView: 3,
     },
+    1440: {
+      slidesPerView: 5,
+    },
   },
   on: {
     init() {

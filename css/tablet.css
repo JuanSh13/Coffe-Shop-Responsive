@@ -108,6 +108,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   flex-direction: row-reverse;
+  align-items: center;
   gap: 1rem;
 
   text-align: start;
